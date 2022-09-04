@@ -6,7 +6,27 @@ Nearly identical to Guilded's Howdy bot, this application was designed for one t
 
 * Install node from either [nodejs.org](https://nodejs.org/en/) or [scoop](https://scoop.sh/) with nvm
 
-# NVM
+* Install git from either the [Windows Package Manager](https://github.com/microsoft/winget-cli) or [Git for Windows](https://gitforwindows.org/)
+
+* Run the following commands:
+
+    ```ps1
+    > git clone git@github.com:morgann1/howdy-bot.git
+    > cd path.to.project
+    > npm install
+    > npm run start
+    ```
+
+# Installing git
+
+Windows:
+
+```ps1
+# winget
+> winget install -e --id Git.Git
+```
+
+# Installing nvm (Node Version Manager)
 
 Windows:
 
@@ -17,6 +37,6 @@ Windows:
 > nvm use version # The 'use' command must be executed in a shell with Administor privileges (Run as Administrator)
 ```
 
-Linux:
+Linux & OSX:
 
 The Github repository [nvm](https://github.com/nvm-sh/nvm) has a [guide on how to install nvm](https://github.com/nvm-sh/nvm#installing-and-updating) depending on your distribution
